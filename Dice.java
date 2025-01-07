@@ -1,5 +1,6 @@
 package com.Dice;
 
+
 public class Dice {
     private int point;
     private String color;
@@ -28,13 +29,10 @@ public class Dice {
     }
 
 
-//  public void changecolor(父类Money){
-//           if...
-//              return  setcolor();
-//
-//    }
+
 
 
 
 
 }
+
