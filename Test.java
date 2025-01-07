@@ -11,7 +11,7 @@ public class Test {
         // 模拟游戏进行9天，每天有两回合
         int currentRound = 1;
 
-        while (currentRound <= 2) {
+        while (currentRound <= 18) {
             int day = (currentRound - 1) / 2 + 1;  // 计算当前是第几天
             int roundInDay = (currentRound - 1) % 2 + 1;  // 计算是今天的上午还是下午
 
@@ -27,7 +27,7 @@ public class Test {
                 System.out.println("是否进入下一个回合？输入1继续，其他键退出：");
                 int userInput = scanner.nextInt();
                 if (userInput != 1) {
-                    System.out.println("游戏暂停，谢谢参与！");
+                    System.out.println("pause");
                     break;  // 如果玩家输入不为1，退出游戏
                 }
             }
